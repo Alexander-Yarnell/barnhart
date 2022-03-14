@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.card-width {
+  top: 3%;
+  margin: 5%;
+  padding: 2%;
+  background-color: #fff;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  width: 107%;
+  gap: 1.5%;
+}
+
+.card-title {
+  font-family: "Open Sans";
+  font-size: 36px;
+}
+
+.card-text {
+  font-family: "Open Sans";
+  font-size: 24px;
+}

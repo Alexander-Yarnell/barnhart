@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.contact-container {
+  top: 3%;
+  margin: 5%;
+  padding: 2%;
+  background-color: #fff;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  width: 107%;
+  gap: 1.5%;
+}
+
+.contact-title{ 
+  padding: 4%;
+  font-family: "Open Sans";
+  font-size: 36px;
+}
+
+.first-name {
+  margin: 4%;
+  width: 40%; 
+  border: 0px solid;
+  border-bottom: 1px solid gray;
+  outline: none;
+
+}
+
+.last-name {
+  margin: 4%;
+  width: 40%;
+  border: 0px solid;
+  border-bottom: 1px solid gray;
+  outline: none;
+}
+
+.email {
+  margin: 4%;
+  width: 90%;
+  border: 0px solid;
+  border-bottom: 1px solid gray;
+  outline: none;
+}
+
+.submit-btn {
+  color: white;
+  font-size: 24px;
+  font-family: "Open Sans";
+  margin: 2%;
+  width: 200px;
+  height: 50px;
+  filter: drop-shadow(4px 4px 5px rgba(0, 0, 0, 0.35));
+  transform: rotate(-0.28deg);
+  background: linear-gradient(95.55deg, #e21616 37.32%, #b60f0f 91.05%);
+  border-radius: 25px;
+}
+
