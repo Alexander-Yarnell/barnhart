@@ -1,0 +1,10 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.footer-bg{
+  background-color: #252525;
+  width: 100%;
+  min-height: 250px;
+}

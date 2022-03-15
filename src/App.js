@@ -4,6 +4,7 @@ import React from "react";
 import Nav from "./components/Nav";
 import Map from "./components/Map";
 import Card from "./components/Card";
+import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import Headshot from "./components/Headshot";
 
@@ -13,36 +14,42 @@ import "./css/website.css";
 //Media
 import headshot from "./media/Dan Madrigal 0420 headshot - Copy.jpg";
 import madrigal from "./media/Madrigal Team Gold Logo w bhhspfrlogo.jpg";
+import buckert from "./media/Buckert.png";
 
 function App() {
   return (
     <div>
       <Nav />
       <div className="app-container">
-        <div className="contact">
+        <div className="left-column">
           <Contact />
           <Card
             className="information"
             title="General Information"
-            text="Location: 97th and Oliver
-Home Size:
-Phase 1: Starting at 1700sqft Main Floor for 1 story home. 2300sqft for 1.5 or 2 story home.
-Phase 2: Starting at 1500sqft Main Floor for 1 story home. 2100sqft for 1.5 or 2 story home.
-Builders: Buckert Contracting, Kreutzer Homes, Relph Construction, Open Door Custom Homes Inc
-Schools: Valley Center
-Restrictions and Covenants: Yes 
-HOA: Yes, approximately $100-$200/year
-Special Assessment: Approcimately $150/month
-Utilities: Septic System, Rural Water District #2, Energy Electric 
-Paved Roads 
-Outbuildings allowed "
+            text="Location: 97th and Oliver"
           />
-          <Headshot className="headshot" headshot={headshot} madrigal={madrigal} />
         </div>
-        <div className="map">
+        <div className="right-column">
           <Map />
         </div>
       </div>
+      <div className="about-us">
+        <div className="headshot-container">
+          <Headshot headshot={headshot} madrigal={madrigal} />
+        </div>
+        <div className="info-container">
+          <Card
+            title="General Information"
+            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec sagittis eros. Sed varius ullamcorper aliquam. Sed tincidunt mauris vitae mauris hendrerit, nec aliquam dolor commodo. Morbi id risus porttitor urna mollis accumsan. Aliquam venenatis risus ac interdum ultrices. Duis euismod et dolor ut aliquam. Praesent volutpat pulvinar ipsum, in rhoncus est ornare vel. Vivamus tincidunt lectus at felis pulvinar, varius sodales nisi tempor. Fusce dictum pretium porta. Mauris varius urna vitae orci feugiat, non tempus nisi placerat. Phasellus maximus diam sem, vitae volutpat mi lacinia ac. Curabitur tristique sollicitudin velit vel eleifend. Aliquam vel massa rhoncus, feugiat diam eget, finibus justo.  "
+          />
+        </div>
+        <div className="builders-container">
+          <a href="">
+            <img className="builders-img" src={buckert} />
+          </a>
+        </div>
+      </div>
+      <Footer />
     </div>
   );
 }

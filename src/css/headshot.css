@@ -3,10 +3,21 @@
   margin: 0x;
 }
 
+.container{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 30rem;
+}
+
 .headshot{
-  width: 25rem;
+  width: 40rem;
 }
 
 .madrigal{
-  width: 25rem;
+  width: 40rem;
+}
+
+.btn{
+  height: 30%;
+  width: 100%;
 }
