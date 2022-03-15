@@ -6,15 +6,14 @@ body {
 }
 
 .card-width {
-  padding: 2%;
-  width: 100$;
+  width: 50rem;
   background-color: #fff;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 25px;
 }
 
 .card-title {
-  padding: 4%;
+  padding-left: 7%;
   font-family: "Open Sans";
   font-size: 36px;
 }

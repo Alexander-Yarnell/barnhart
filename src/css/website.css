@@ -15,7 +15,7 @@ body {
   grid-template-rows: auto;
   grid-row-gap: 15rem;
   margin-top: 10vh;
-  grid-column: 2 / 3;
+  grid-column: 2 / 5;
 }
 
 .right-column {
