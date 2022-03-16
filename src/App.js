@@ -23,10 +23,11 @@ function App() {
       <Nav />
       <div className="app-container">
         <div className="left-column">
+          <Contact />
           <Card
             className="information"
             title="General Information"
-            text={<List/>}
+            text={<List />}
           />
         </div>
         <div className="right-column">
@@ -38,7 +39,11 @@ function App() {
           <Headshot headshot={headshot} madrigal={madrigal} />
         </div>
         <div className="info-container">
-          <Contact/>
+          <Card
+            className="information"
+            title="About Us"
+            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut semper tortor ac eros porttitor, vel fringilla massa rhoncus. Suspendisse dapibus pulvinar gravida. Maecenas enim nulla, ornare a efficitur pulvinar, molestie eu risus. Maecenas id tristique turpis. Curabitur sit amet ligula id est elementum posuere quis vel tellus. Duis aliquam leo sed mollis placerat. Nulla semper, libero et tincidunt sagittis, eros felis vehicula sem, ut mollis eros diam sit amet ipsum."
+          />
         </div>
         <div className="builders-container">
           <a href="https://buckertcontracting.com/" target="_blank">
