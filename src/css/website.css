@@ -10,32 +10,44 @@ body {
 
 .left-column {
   display: grid;
+  width: 100%;
   grid-template-rows: auto;
-  margin-top: 10vh;
-  grid-column: 2 / 5;
+  margin-top: 20vh;
+  grid-column: 2 / 6;
 }
 
-.right-column {
+.general-information {
+  margin-top: 10%;
+  width: 150%;
+}
+
+.contact {
+  width: 150%;
+}
+
+.map {
   margin-top: 10vh;
   grid-column: 7;
-  width: 50vw;
   z-index: -1;
 }
 
-.about-us {
+.info-container {
   margin-top: 5%;
   display: grid;
   grid-template-columns: repeat(20, 5%);
-  grid-template-rows: 600px 300px;
+  grid-template-rows: 600px auto 100px;
 }
 
 .headshot-container {
-  padding: 5%;
+  min-width: 30rem;
+  max-width: 40rem;
+  margin-top: 1.5em;
   grid-column: 2 / 3;
 }
 
-.info-container {
-  grid-column: 12 / 20;
+.info-card {
+  grid-column: 11 / 20;
+  width: 100%;
 }
 
 .builders-container {
@@ -55,49 +67,87 @@ body {
 
   .app-container {
     display: grid;
-    grid-template-columns: repeat(10, 10%);
+    grid-template-columns: repeat(20, 5%);
+    grid-template-rows: auto;
+  }
+
+  .map {
+    grid-column: 1 / 20;
+    grid-row: 1;
+    width: 100%;
+    margin-top: 10%;
   }
 
   .left-column {
+    grid-column: 2 / 20;
     display: grid;
-    grid-column: 5;
-    grid-row: 2;
+    grid-template-rows: auto;
   }
 
-  .right-column {
-    margin-top: 10vh;
-    grid-column: 1;
-    width: 50vw;
-    z-index: -1;
-  }
-
-  .about-us {
-    margin-top: 5%;
-    display: grid;
-    grid-template-columns: repeat(20, 5%);
-    grid-template-rows: 600px 300px;
+  .contact {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .headshot-container {
-    padding: 5%;
-    grid-column: 2 / 3;
+    margin-top: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .general-information {
+    width: 100%;
+    height: auto;
   }
 
   .info-container {
-    grid-column: 12 / 20;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-rows: 700px auto 100px;
+  }
+
+  .info-card {
+    width: 90%;
   }
 
   .builders-container {
-    grid-column: 12 / 20;
-    width: 40rem;
-  }
-
-  .builders-img {
-    width: 80%;
+    width: 100%;
   }
 }
 
-@media only screen and (max-width: 900px) {
-  body {
+@media only screen and (max-width: 1000px) {
+  .info-container {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 100%;
+    margin-left: auto;
+    margin-right: auto;
   }
+
+  .headshot-container {
+    min-width: auto;
+    grid-row: 1;
+    grid-column: 1;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  .info-card {
+    grid-row: 2;
+    grid-column: 1;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .builders-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    grid-row: 3;
+    grid-column: 1;
+    margin-left: 10%;
+  }
+
 }

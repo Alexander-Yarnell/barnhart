@@ -18,3 +18,11 @@ ol li {
   font-weight: bold;
   font-size: 24px;
 }
+
+@media only screen and (max-width: 1750px) {
+  .list-group-item{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}

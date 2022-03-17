@@ -6,7 +6,8 @@ body {
 }
 
 .card-width {
-  width: 50rem;
+  width: 100%;
+  height: auto;
   background-color: #fff;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 25px;
@@ -22,4 +23,10 @@ body {
   padding: 4%;
   font-family: "Open Sans";
   font-size: 24px;
+}
+
+@media only screen and (max-width: 1750px) {
+  .card-width {
+    width: 100%;
+  }
 }

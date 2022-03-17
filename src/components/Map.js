@@ -4,7 +4,7 @@ import React from "react";
 import map from "../media/BarnhartEstatesBaseMap.jpg";
 
 //Css
-import '../css/map.css';
+import "../css/map.css";
 
 function Map() {
   return (

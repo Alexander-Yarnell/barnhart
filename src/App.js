@@ -23,22 +23,22 @@ function App() {
       <Nav />
       <div className="app-container">
         <div className="left-column">
-          <Contact />
-          <Card
-            className="information"
-            title="General Information"
-            text={<List />}
-          />
+          <div className="contact">
+            <Contact />
+          </div>
+          <div className="general-information">
+            <Card title="General Information" text={<List />} />
+          </div>
         </div>
-        <div className="right-column">
+        <div className="map">
           <Map />
         </div>
       </div>
-      <div className="about-us">
+      <div className="info-container">
         <div className="headshot-container">
-          <Headshot headshot={headshot} madrigal={madrigal} />
+          <Headshot className="headshot-img" headshot={headshot} madrigal={madrigal} />
         </div>
-        <div className="info-container">
+        <div className="info-card">
           <Card
             className="information"
             title="About Us"

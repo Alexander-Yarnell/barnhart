@@ -9,8 +9,8 @@ body {
   background-color: #fff;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 25px;
-  width: 50rem;
-  height: 35rem;
+  width: 100%;
+  height: auto;
 }
 
 .contact-title{ 
@@ -45,15 +45,14 @@ body {
 }
 
 .submit-btn {
+  margin: 4%;
   color: white;
   font-size: 24px;
   font-family: "Open Sans";
-  margin: 2%;
   width: 200px;
   height: 50px;
   filter: drop-shadow(4px 4px 5px rgba(0, 0, 0, 0.35));
   transform: rotate(-0.28deg);
   background: linear-gradient(95.55deg, #e21616 37.32%, #b60f0f 91.05%);
-  border-radius: 25px;
 }
 

@@ -1,23 +1,23 @@
-.body{
+.body {
   padding: 0px;
   margin: 0x;
 }
 
-.container{
+.container {
   display: grid;
-  grid-template-rows: 1fr 1fr;
-  grid-template-columns: 30rem;
+  grid-template-rows: auto;
+  grid-template-columns: 100%;
 }
 
-.headshot{
-  width: 30rem;
+.headshot {
+  width: 100%;
 }
 
-.madrigal{
-  width: 30rem;
+.madrigal {
+  width: 100%;
 }
 
-.btn{
-  height: 30%;
+.btn {
+  height: 100%;
   width: 100%;
 }
