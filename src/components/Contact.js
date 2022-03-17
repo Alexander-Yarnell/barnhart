@@ -1,5 +1,8 @@
 import React from "react";
 
+const mail = require('@sendgrid/mail'); 
+
+
 import "../css/contact.css";
 
 function Contact() {
