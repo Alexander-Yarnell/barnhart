@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
 
 body {
   padding: 0;
@@ -13,7 +13,7 @@ body {
   height: auto;
 }
 
-.contact-title{ 
+.contact-title {
   padding: 4%;
   font-family: "Open Sans";
   font-size: 36px;
@@ -21,11 +21,10 @@ body {
 
 .first-name {
   margin: 4%;
-  width: 40%; 
+  width: 40%;
   border: 0px solid;
   border-bottom: 1px solid gray;
   outline: none;
-
 }
 
 .last-name {
@@ -45,14 +44,41 @@ body {
 }
 
 .submit-btn {
-  margin: 4%;
   color: white;
   font-size: 24px;
   font-family: "Open Sans";
+  font-weight: bold;
+  margin: 2%;
   width: 200px;
   height: 50px;
   filter: drop-shadow(4px 4px 5px rgba(0, 0, 0, 0.35));
   transform: rotate(-0.28deg);
-  background: linear-gradient(95.55deg, #e21616 37.32%, #b60f0f 91.05%);
+  background: linear-gradient(132.73deg, #484848 25.99%, #000000 91.32%);
+}
+.contact-button {
+  display: none;
 }
 
+@media only screen and (max-width: 500px) {
+  .contact-container {
+    display: none;
+  }
+  .contact-button {
+    display: flex;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Open Sans";
+    margin: 2%;
+    width: 90%;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+
+    filter: drop-shadow(4px 4px 5px rgba(0, 0, 0, 0.35));
+    transform: rotate(-0.28deg);
+    background: linear-gradient(132.73deg, #484848 25.99%, #000000 91.32%);
+  }
+}

@@ -2,12 +2,16 @@ import React from "react";
 
 import "../css/headshot.css";
 
-function Headshot(props) {
+//Media
+import headshot from "../media/Dan Madrigal 0420 headshot - Copy.jpg";
+import madrigal from "../media/Madrigal Team Gold Logo w bhhspfrlogo.jpg";
+
+function Headshot() {
   return (
-    <div className="container">
-      <img className="headshot" src={props.headshot} />
+    <div className="headshot-container">
+      <img className="headshot" src={headshot} />
       <a className="btn" href="https://madrigalteamgold.com/" target="_blank">
-        <img className="madrigal" src={props.madrigal} />
+        <img className="madrigal" src={madrigal} />
       </a>
     </div>
   );

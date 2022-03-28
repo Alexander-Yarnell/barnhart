@@ -1,0 +1,45 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+
+h2{
+  font-size: 32px;
+  text-align: center;
+
+}
+p{
+  text-align: center;
+  font-size: 24px;
+}
+
+.block-container{
+  display: grid;
+  grid-template-columns: repeat(4, 20%);
+  justify-content: space-between;
+}
+
+.block-item{
+  max-width: 100%;
+}
+
+
+@media only screen and (max-width: 1750px) {
+  .block-container{
+    grid-template-columns: repeat(2, 20%);
+    justify-content: center;
+    gap: 5rem;
+  }
+  .block-item{
+    max-width: 130%;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .block-container{
+    grid-template-columns: 80%;
+  }
+  .block-item{
+    max-width: 130%;
+  }
+  
+}

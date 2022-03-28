@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.slider-logos {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  height: 150px;
+}
+
+.slider {
+  display: none;
+}
+
+.d-block {
+  max-height: 200px;
+  max-width: 300px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .slider-logos {
+    display: none;
+  }
+  .slider{
+    display: flex;
+    justify-content: center;
+  }
+
+}

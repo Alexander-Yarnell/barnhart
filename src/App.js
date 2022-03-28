@@ -8,47 +8,55 @@ import List from "./components/List";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import Headshot from "./components/Headshot";
+import Lightbox from "./components/Lightbox";
+import InfoBlocks from "./components/InfoBlocks";
+import LogoSlider from "./components/Logo-Slider";
 
 //Css
-import "./css/website.css";
-
-//Media
-import headshot from "./media/Dan Madrigal 0420 headshot - Copy.jpg";
-import madrigal from "./media/Madrigal Team Gold Logo w bhhspfrlogo.jpg";
-import buckert from "./media/Buckert.png";
+import "./css/app.css";
 
 function App() {
   return (
     <div>
       <Nav />
       <div className="app-container">
-        <div className="left-column">
-          <div className="contact">
-            <Contact />
-          </div>
-          <div className="general-information">
-            <Card title="General Information" text={<List />} />
-          </div>
+        <div className="contact-top">
+          <Contact />
+        </div>
+        <div className="general-info">
+          <Card title="General Information" text={<List />} />
         </div>
         <div className="map">
-          <Map />
+          <Lightbox />
         </div>
-      </div>
-      <div className="info-container">
-        <div className="headshot-container">
-          <Headshot className="headshot-img" headshot={headshot} madrigal={madrigal} />
-        </div>
-        <div className="info-card">
+        <div className="school-text">
           <Card
-            className="information"
-            title="About Us"
-            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut semper tortor ac eros porttitor, vel fringilla massa rhoncus. Suspendisse dapibus pulvinar gravida. Maecenas enim nulla, ornare a efficitur pulvinar, molestie eu risus. Maecenas id tristique turpis. Curabitur sit amet ligula id est elementum posuere quis vel tellus. Duis aliquam leo sed mollis placerat. Nulla semper, libero et tincidunt sagittis, eros felis vehicula sem, ut mollis eros diam sit amet ipsum."
+            title="Schools"
+            text="The Valley Center Elementary School District lets you decide where you would like your child to attend on a 1,2,3 ranking. They try to accomadate all parents wishes but as well make sure the school are filled equally through out the three schools. They do this in case you have a cousin or best friend in the same school district as your child, they can hopefully attend to the same elementary school."
           />
         </div>
-        <div className="builders-container">
-          <a href="https://buckertcontracting.com/" target="_blank">
-            <img className="builders-img" src={buckert} />
-          </a>
+        <div className="school-info">
+          <InfoBlocks
+            info1="Elementary Schools"
+            info1text1="Abeliene: Pre K-3rd Grade"
+            info1text2=" Wheatland: K-3rd Grade"
+            info1text3="West: K-3rd Grade"
+            info2="Intermediate"
+            info2text="All 4th and 5th graders attende the Intermediate school for Valley Center School District."
+            info3="Middle School"
+            info3text="6th grade -8th grade"
+            info4="High School"
+            info4text="Freshman 9th grade - Senior 12th grade"
+          />
+        </div>
+        <div className="headshot">
+          <Headshot />
+        </div>
+        <div className="logo-slider">
+          <LogoSlider />
+        </div>
+        <div className="contact-bottom">
+          <Contact />
         </div>
       </div>
       <Footer />

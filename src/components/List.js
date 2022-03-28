@@ -14,14 +14,14 @@ function List() {
           <div className="item-name">Home Size :</div>
         </li>
         <li className="list-group-item">
-          <div className="item-name">Phaze One :</div>
+          <div className="item-name">Phase One :</div>
           <div className="item-description">
             Starting at 1700sqft Main Floor for 1 story home. 2300sqft for 1.5
             or 2 story home.
           </div>
         </li>
         <li className="list-group-item">
-          <div className="item-name">Phaze Two :</div>
+          <div className="item-name">Phase Two :</div>
           <div className="item-description">
             Starting at 1500sqft Main Floor for 1 story home. 2100sqft for 1.5
             or 2 story home.
