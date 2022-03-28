@@ -3,8 +3,8 @@ import React from "react";
 import "../css/headshot.css";
 
 //Media
-import headshot from "../media/Dan Madrigal 0420 headshot - Copy.jpg";
-import madrigal from "../media/Madrigal Team Gold Logo w bhhspfrlogo.jpg";
+import headshot from "../media/Dan Madrigal 0420 headshot - Copy.png";
+import madrigal from "../media/Madrigal Team Gold Logo w bhhspfrlogo.png";
 
 function Headshot() {
   return (

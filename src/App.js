@@ -2,7 +2,6 @@ import React from "react";
 
 //components
 import Nav from "./components/Nav";
-import Map from "./components/Map";
 import Card from "./components/Card";
 import List from "./components/List";
 import Footer from "./components/Footer";

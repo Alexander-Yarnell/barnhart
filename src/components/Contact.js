@@ -39,7 +39,7 @@ function Contact() {
           </button>
         </form>
       </div>
-      <a href="/contact">
+      <a className="contact"href="/contact">
         <button className="contact-button">Contact Us</button>
       </a>
     </div>

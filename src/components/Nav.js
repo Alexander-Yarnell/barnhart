@@ -4,14 +4,14 @@ import React from "react";
 import "../css/nav.css";
 
 //Import Media
-import logo from "../media/Barnhart Logo.png";
+import logo from "../media/Barnhart Logo(1).png";
 
 function Nav() {
   return (
     <div className="bg">
       <img className="nav-logo" src={logo} />
       <div className="nav-info">
-        <h2 href="tel:316-990-0184" >316-990-0184</h2>
+        <h2 href="tel:316-990-0184">316-990-0184</h2>
       </div>
     </div>
   );

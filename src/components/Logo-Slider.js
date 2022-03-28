@@ -1,8 +1,8 @@
 import React from "react";
 
-import buckert from "../media/Buckert.jpg";
-import kreutzer from "../media/base_logo_white_background.jpg";
-import openDoor from "../media/open-door-custome-homes.jpg";
+import buckert from "../media/Buckert.png";
+import kreutzer from "../media/base_logo_white_background.png";
+import openDoor from "../media/open-door-custome-homes.png";
 
 import "../css/logo-slider.css";
 

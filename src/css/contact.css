@@ -63,6 +63,9 @@ body {
   .contact-container {
     display: none;
   }
+  .contact{
+    text-decoration: none;
+  }
   .contact-button {
     display: flex;
     color: white;
@@ -77,7 +80,6 @@ body {
     margin-left: auto;
     margin-right: auto;
 
-    filter: drop-shadow(4px 4px 5px rgba(0, 0, 0, 0.35));
     transform: rotate(-0.28deg);
     background: linear-gradient(132.73deg, #484848 25.99%, #000000 91.32%);
   }
