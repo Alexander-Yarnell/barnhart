@@ -20,19 +20,19 @@ body {
 
 .footer-title {
   font-weight: bold;
-  grid-column: 2;
+  grid-column: 2/4;
   grid-row: 2;
   color: white;
 }
 
 .footer-email {
-  grid-column: 2;
+  grid-column: 2/4;
   grid-row: 3;
   color: white;
 }
 
 .footer-phone {
-  grid-column: 2;
+  grid-column: 2/4;
   grid-row: 4;
   color: white;
 }
