@@ -8,7 +8,7 @@ function Contact() {
       <div className="contact-container">
         <h2 className="contact-title">Contact Us</h2>
         <form
-          action="https://formsubmit.co/dmadrigal@penfedrealty.com"
+          action="https://formsubmit.co/8e6d8b238b861c721bb4056ee5682c32"
           method="POST"
         >
           <input
