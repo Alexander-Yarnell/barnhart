@@ -31,13 +31,14 @@ function App() {
         <div className="school-text">
           <Card
             title="Schools"
-            text="The Valley Center Elementary School District lets you decide where you would like your child to attend on a 1,2,3 ranking. They try to accomadate all parents wishes but as well make sure the school are filled equally through out the three schools. They do this in case you have a cousin or best friend in the same school district as your child, they can hopefully attend to the same elementary school."
+            text="The Valley Center Elementary School District lets you decide where you would like your child to attend on a 1,2,3 ranking. They try to accomadate all parents wishes but as well make sure the school are filled equally through out the three schools. They do this in case you have a cousin or best friend in the same school district as your child, they can hopefully attend to the same elementary school. If you have more information please visit our website "
+            url="https://www.usd262.net/"
           />
         </div>
         <div className="school-info">
           <InfoBlocks
             info1="Elementary Schools"
-            info1text1="Abeliene: Pre K-3rd Grade"
+            info1text1="Abilene: Pre K-3rd Grade"
             info1text2=" Wheatland: K-3rd Grade"
             info1text3="West: K-3rd Grade"
             info2="Intermediate"

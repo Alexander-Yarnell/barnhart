@@ -8,30 +8,27 @@ function List() {
       <ul className="list-group">
         <li className="list-group-item">
           <div className="item-name">Location :</div>
-          <div className="item-description">97th and Oliver</div>
-        </li>
-        <li className="list-group-item">
-          <div className="item-name">Home Size :</div>
+          <div className="item-description">93th and Oliver</div>
         </li>
         <li className="list-group-item">
           <div className="item-name">Phase One :</div>
           <div className="item-description">
-            Starting at 1700sqft Main Floor for 1 story home. 2300sqft for 1.5
-            or 2 story home.
+            Home Size starting at 1700sqft Main Floor for 1 story home. 2300sqft
+            for 1.5 or 2 story home.
           </div>
         </li>
         <li className="list-group-item">
           <div className="item-name">Phase Two :</div>
           <div className="item-description">
-            Starting at 1500sqft Main Floor for 1 story home. 2100sqft for 1.5
-            or 2 story home.
+            Home Size starting at 1500sqft Main Floor for 1 story home. 2100sqft
+            for 1.5 or 2 story home.
           </div>
         </li>
         <li className="list-group-item">
           <div className="item-name">Builders :</div>
           <div className="item-description">
             Buckert Contracting, Kreutzer Homes, Relph Construction, Open Door
-            Custom Homes Inc
+            Custom Homes Inc.
           </div>
         </li>
         <li className="list-group-item">
@@ -44,7 +41,7 @@ function List() {
         </li>
         <li className="list-group-item">
           <div className="item-name">Special Assessment :</div>
-          <div className="item-description">Approcimately $150/month</div>
+          <div className="item-description">Approximately $150/month</div>
         </li>
         <li className="list-group-item">
           <div className="item-name">Utilities :</div>
